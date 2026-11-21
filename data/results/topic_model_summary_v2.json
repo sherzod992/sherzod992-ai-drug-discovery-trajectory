@@ -1,0 +1,22 @@
+{
+  "version": "v2",
+  "embedding": "allenai/scibert_scivocab_uncased",
+  "cluster_method": "KMeans",
+  "n_clusters": 8,
+  "min_samples": 0,
+  "total_documents": 5891,
+  "n_topics": 8,
+  "n_outliers": 0,
+  "outlier_rate": 0.0,
+  "date_range": "2016-01-01 .. 2025-12-31",
+  "topic_share_slopes": {
+    "0": -0.00884341381814571,
+    "1": 0.015148638828479338,
+    "2": -0.0007566493991466325,
+    "3": 0.0009138143584485936,
+    "4": -0.0010677344166965144,
+    "5": -0.00036702848885859313,
+    "6": -0.00019246576994349626,
+    "7": -0.004835161294136974
+  }
+}

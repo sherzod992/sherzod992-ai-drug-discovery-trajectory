@@ -1,0 +1,21 @@
+{
+  "source": "patents_preprocessed_strict.csv",
+  "n_before": 119143,
+  "n_after_filter": 5891,
+  "n_after_oled_sweep": 5891,
+  "removed_total": 113252,
+  "removed_oled_residual": 0,
+  "yearly_counts": {
+    "2016": 183,
+    "2017": 367,
+    "2018": 652,
+    "2019": 987,
+    "2020": 1121,
+    "2021": 990,
+    "2022": 788,
+    "2023": 494,
+    "2024": 264,
+    "2025": 45
+  },
+  "output": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/patents_preprocessed_v2.csv"
+}

@@ -47,6 +47,9 @@ CPC_PREFIXES = (
     "G16Z",   # Other healthcare IT
 )
 
+# Display / semiconductor denylist (used by filter_v2_dataset.py; keep in sync)
+DENY_CPC_PREFIXES = ("H01L", "G09G", "G09F", "C09K11", "H05B33", "H10K")
+
 NEEDED_FILES = (
     "g_cpc_current.tsv.zip",
     "g_patent.tsv.zip",

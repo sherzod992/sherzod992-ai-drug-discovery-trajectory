@@ -1,0 +1,296 @@
+{
+  "version": "v2",
+  "n_patents": 5891,
+  "display_assignees_removed": 0,
+  "sector_totals": [
+    {
+      "sector": "academia",
+      "patent_count": 581
+    },
+    {
+      "sector": "big_pharma",
+      "patent_count": 46
+    },
+    {
+      "sector": "big_tech",
+      "patent_count": 848
+    },
+    {
+      "sector": "other",
+      "patent_count": 4089
+    },
+    {
+      "sector": "unknown",
+      "patent_count": 327
+    }
+  ],
+  "top_big_tech": [
+    {
+      "assignee_norm": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+      "sector": "big_tech",
+      "patent_count": 238
+    },
+    {
+      "assignee_norm": "SIEMENS HEALTHCARE LIMITED",
+      "sector": "big_tech",
+      "patent_count": 143
+    },
+    {
+      "assignee_norm": "KONINKLIJKE PHILIPS N.V.",
+      "sector": "big_tech",
+      "patent_count": 132
+    },
+    {
+      "assignee_norm": "SIEMENS HEALTHINEERS AG",
+      "sector": "big_tech",
+      "patent_count": 73
+    },
+    {
+      "assignee_norm": "GOOGLE LLC",
+      "sector": "big_tech",
+      "patent_count": 54
+    },
+    {
+      "assignee_norm": "ACCENTURE GLOBAL SOLUTIONS LIMITED",
+      "sector": "big_tech",
+      "patent_count": 22
+    },
+    {
+      "assignee_norm": "MICROSOFT TECHNOLOGY LICENSING, LLC",
+      "sector": "big_tech",
+      "patent_count": 21
+    },
+    {
+      "assignee_norm": "SIEMENS HEALTHINEERS INTERNATIONAL AG",
+      "sector": "big_tech",
+      "patent_count": 19
+    },
+    {
+      "assignee_norm": "TENCENT TECHNOLOGY (SHENZHEN) COMPANY LIMITED",
+      "sector": "big_tech",
+      "patent_count": 17
+    },
+    {
+      "assignee_norm": "SIEMENS MEDICAL SOLUTIONS USA, INC.",
+      "sector": "big_tech",
+      "patent_count": 16
+    }
+  ],
+  "top_big_pharma": [
+    {
+      "assignee_norm": "GENENTECH, INC.",
+      "sector": "big_pharma",
+      "patent_count": 8
+    },
+    {
+      "assignee_norm": "HOFFMANN-LA ROCHE INC.",
+      "sector": "big_pharma",
+      "patent_count": 7
+    },
+    {
+      "assignee_norm": "SANOFI",
+      "sector": "big_pharma",
+      "patent_count": 6
+    },
+    {
+      "assignee_norm": "ROCHE DIABETES CARE, INC.",
+      "sector": "big_pharma",
+      "patent_count": 3
+    },
+    {
+      "assignee_norm": "ROCHE MOLECULAR SYSTEMS, INC.",
+      "sector": "big_pharma",
+      "patent_count": 3
+    },
+    {
+      "assignee_norm": "JANSSEN PHARMACEUTICA NV",
+      "sector": "big_pharma",
+      "patent_count": 3
+    },
+    {
+      "assignee_norm": "JOHNSON & JOHNSON SURGICAL VISION, INC.",
+      "sector": "big_pharma",
+      "patent_count": 3
+    },
+    {
+      "assignee_norm": "MERCK SHARP & DOHME LLC",
+      "sector": "big_pharma",
+      "patent_count": 2
+    },
+    {
+      "assignee_norm": "AMGEN INC.",
+      "sector": "big_pharma",
+      "patent_count": 2
+    },
+    {
+      "assignee_norm": "TAKEDA PHARMACEUTICAL COMPANY LIMITED",
+      "sector": "big_pharma",
+      "patent_count": 2
+    }
+  ],
+  "cpc_contrast": {
+    "big_tech": {
+      "G16H": 0.7123,
+      "G06V": 0.2512,
+      "G06N": 0.7134,
+      "A61B": 0.4269,
+      "G16Z": 0.0106,
+      "A61K": 0.0024,
+      "G16C": 0.046,
+      "A61M": 0.0118,
+      "C07K": 0.0012
+    },
+    "big_pharma": {
+      "A61B": 0.3261,
+      "G16H": 0.7174,
+      "G06V": 0.2609,
+      "G06N": 0.4783,
+      "G16C": 0.1087,
+      "A61K": 0.0652,
+      "A61M": 0.0217,
+      "C07K": 0.0217
+    }
+  },
+  "topic_cosine_similarity": {
+    "big_tech_vs_big_pharma": 0.9011,
+    "big_tech_vs_academia": 0.7824,
+    "big_pharma_vs_academia": 0.5325
+  },
+  "rta_preview": [
+    {
+      "sector": "big_tech",
+      "topic_id": 0,
+      "n_ij": 208,
+      "n_i": 848,
+      "N_j": 1061,
+      "N": 5891,
+      "RTA": 1.3619
+    },
+    {
+      "sector": "big_tech",
+      "topic_id": 1,
+      "n_ij": 107,
+      "n_i": 848,
+      "N_j": 932,
+      "N": 5891,
+      "RTA": 0.7976
+    },
+    {
+      "sector": "big_tech",
+      "topic_id": 2,
+      "n_ij": 111,
+      "n_i": 848,
+      "N_j": 902,
+      "N": 5891,
+      "RTA": 0.8549
+    },
+    {
+      "sector": "big_tech",
+      "topic_id": 3,
+      "n_ij": 136,
+      "n_i": 848,
+      "N_j": 793,
+      "N": 5891,
+      "RTA": 1.1914
+    },
+    {
+      "sector": "big_tech",
+      "topic_id": 4,
+      "n_ij": 61,
+      "n_i": 848,
+      "N_j": 787,
+      "N": 5891,
+      "RTA": 0.5385
+    },
+    {
+      "sector": "big_tech",
+      "topic_id": 5,
+      "n_ij": 152,
+      "n_i": 848,
+      "N_j": 708,
+      "N": 5891,
+      "RTA": 1.4914
+    },
+    {
+      "sector": "big_tech",
+      "topic_id": 6,
+      "n_ij": 69,
+      "n_i": 848,
+      "N_j": 578,
+      "N": 5891,
+      "RTA": 0.8293
+    },
+    {
+      "sector": "big_tech",
+      "topic_id": 7,
+      "n_ij": 4,
+      "n_i": 848,
+      "N_j": 130,
+      "N": 5891,
+      "RTA": 0.2138
+    },
+    {
+      "sector": "big_pharma",
+      "topic_id": 0,
+      "n_ij": 20,
+      "n_i": 46,
+      "N_j": 1061,
+      "N": 5891,
+      "RTA": 2.414
+    },
+    {
+      "sector": "big_pharma",
+      "topic_id": 1,
+      "n_ij": 3,
+      "n_i": 46,
+      "N_j": 932,
+      "N": 5891,
+      "RTA": 0.4122
+    },
+    {
+      "sector": "big_pharma",
+      "topic_id": 2,
+      "n_ij": 3,
+      "n_i": 46,
+      "N_j": 902,
+      "N": 5891,
+      "RTA": 0.4259
+    },
+    {
+      "sector": "big_pharma",
+      "topic_id": 3,
+      "n_ij": 6,
+      "n_i": 46,
+      "N_j": 793,
+      "N": 5891,
+      "RTA": 0.969
+    },
+    {
+      "sector": "big_pharma",
+      "topic_id": 4,
+      "n_ij": 4,
+      "n_i": 46,
+      "N_j": 787,
+      "N": 5891,
+      "RTA": 0.6509
+    },
+    {
+      "sector": "big_pharma",
+      "topic_id": 5,
+      "n_ij": 9,
+      "n_i": 46,
+      "N_j": 708,
+      "N": 5891,
+      "RTA": 1.6279
+    },
+    {
+      "sector": "big_pharma",
+      "topic_id": 7,
+      "n_ij": 1,
+      "n_i": 46,
+      "N_j": 130,
+      "N": 5891,
+      "RTA": 0.9851
+    }
+  ]
+}
