@@ -1,0 +1,267 @@
+{
+  "source": "patents_preprocessed (ODP Q4 2025)",
+  "date_range": "2016-01-01 .. 2025-12-31",
+  "n_patents": 105954,
+  "n_unique_cpc_codes": 8486,
+  "subclass_network": {
+    "nodes": 10,
+    "edges": 37,
+    "min_edge_weight": 5
+  },
+  "focal_subclasses": [
+    "G16H",
+    "G16C",
+    "G16Z",
+    "G06N",
+    "G06V",
+    "A61K",
+    "A61B",
+    "A61M",
+    "C07K",
+    "C07D"
+  ],
+  "top_subclass_by_weighted_degree": [
+    {
+      "node": "A61K",
+      "weighted_degree": 26175,
+      "betweenness": 0.1388888888888889,
+      "eigenvector": 0.6992606741655927
+    },
+    {
+      "node": "G06N",
+      "weighted_degree": 14416,
+      "betweenness": 0.0,
+      "eigenvector": 0.013357322724612408
+    },
+    {
+      "node": "C07K",
+      "weighted_degree": 13720,
+      "betweenness": 0.0,
+      "eigenvector": 0.5233035162052269
+    },
+    {
+      "node": "C07D",
+      "weighted_degree": 12517,
+      "betweenness": 0.4166666666666667,
+      "eigenvector": 0.48337929415896064
+    },
+    {
+      "node": "G06V",
+      "weighted_degree": 12090,
+      "betweenness": 0.0,
+      "eigenvector": 0.011479215423681638
+    },
+    {
+      "node": "G16H",
+      "weighted_degree": 7456,
+      "betweenness": 0.1388888888888889,
+      "eigenvector": 0.015789499885296186
+    },
+    {
+      "node": "A61B",
+      "weighted_degree": 7058,
+      "betweenness": 0.0,
+      "eigenvector": 0.03400439354588322
+    },
+    {
+      "node": "A61M",
+      "weighted_degree": 2362,
+      "betweenness": 0.36111111111111116,
+      "eigenvector": 0.04244123303014578
+    },
+    {
+      "node": "G16C",
+      "weighted_degree": 411,
+      "betweenness": 0.25,
+      "eigenvector": 0.003852787667867665
+    },
+    {
+      "node": "G16Z",
+      "weighted_degree": 319,
+      "betweenness": 0.11111111111111112,
+      "eigenvector": 0.0007054736105467312
+    }
+  ],
+  "focal_centrality": [
+    {
+      "node": "A61K",
+      "degree": 9,
+      "weighted_degree": 26175,
+      "betweenness": 0.1388888888888889,
+      "eigenvector": 0.6992606741655926
+    },
+    {
+      "node": "G06N",
+      "degree": 7,
+      "weighted_degree": 14416,
+      "betweenness": 0.0,
+      "eigenvector": 0.013357322724612325
+    },
+    {
+      "node": "C07K",
+      "degree": 6,
+      "weighted_degree": 13720,
+      "betweenness": 0.0,
+      "eigenvector": 0.5233035162052267
+    },
+    {
+      "node": "C07D",
+      "degree": 6,
+      "weighted_degree": 12517,
+      "betweenness": 0.4166666666666667,
+      "eigenvector": 0.48337929415896064
+    },
+    {
+      "node": "G06V",
+      "degree": 7,
+      "weighted_degree": 12090,
+      "betweenness": 0.0,
+      "eigenvector": 0.011479215423681587
+    },
+    {
+      "node": "G16H",
+      "degree": 9,
+      "weighted_degree": 7456,
+      "betweenness": 0.1388888888888889,
+      "eigenvector": 0.015789499885296227
+    },
+    {
+      "node": "A61B",
+      "degree": 9,
+      "weighted_degree": 7058,
+      "betweenness": 0.0,
+      "eigenvector": 0.03400439354588323
+    },
+    {
+      "node": "A61M",
+      "degree": 8,
+      "weighted_degree": 2362,
+      "betweenness": 0.36111111111111116,
+      "eigenvector": 0.042441233030145915
+    },
+    {
+      "node": "G16C",
+      "degree": 7,
+      "weighted_degree": 411,
+      "betweenness": 0.25,
+      "eigenvector": 0.003852787667867535
+    },
+    {
+      "node": "G16Z",
+      "degree": 6,
+      "weighted_degree": 319,
+      "betweenness": 0.11111111111111112,
+      "eigenvector": 0.0007054736105467746
+    }
+  ],
+  "top_focal_edges": [
+    {
+      "source": "A61K",
+      "target": "C07K",
+      "co_occurrence": 12725
+    },
+    {
+      "source": "A61K",
+      "target": "C07D",
+      "co_occurrence": 11681
+    },
+    {
+      "source": "G06N",
+      "target": "G06V",
+      "co_occurrence": 9571
+    },
+    {
+      "source": "G06N",
+      "target": "G16H",
+      "co_occurrence": 2869
+    },
+    {
+      "source": "A61B",
+      "target": "G16H",
+      "co_occurrence": 2586
+    },
+    {
+      "source": "A61B",
+      "target": "G06N",
+      "co_occurrence": 1626
+    },
+    {
+      "source": "G06V",
+      "target": "G16H",
+      "co_occurrence": 1359
+    },
+    {
+      "source": "A61B",
+      "target": "G06V",
+      "co_occurrence": 1052
+    },
+    {
+      "source": "A61B",
+      "target": "A61M",
+      "co_occurrence": 972
+    },
+    {
+      "source": "A61K",
+      "target": "A61M",
+      "co_occurrence": 937
+    },
+    {
+      "source": "C07D",
+      "target": "C07K",
+      "co_occurrence": 723
+    },
+    {
+      "source": "A61B",
+      "target": "A61K",
+      "co_occurrence": 573
+    },
+    {
+      "source": "A61M",
+      "target": "G16H",
+      "co_occurrence": 263
+    },
+    {
+      "source": "G06N",
+      "target": "G16C",
+      "co_occurrence": 209
+    },
+    {
+      "source": "A61K",
+      "target": "G16H",
+      "co_occurrence": 149
+    },
+    {
+      "source": "G16H",
+      "target": "G16Z",
+      "co_occurrence": 128
+    },
+    {
+      "source": "A61B",
+      "target": "C07K",
+      "co_occurrence": 102
+    },
+    {
+      "source": "A61M",
+      "target": "C07K",
+      "co_occurrence": 93
+    },
+    {
+      "source": "A61B",
+      "target": "G16Z",
+      "co_occurrence": 73
+    },
+    {
+      "source": "A61B",
+      "target": "C07D",
+      "co_occurrence": 65
+    }
+  ],
+  "outputs": {
+    "common_cpcs": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/common_cpcs.csv",
+    "subclass_edges": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/cpc_subclass_edges.csv",
+    "subclass_centrality": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/cpc_subclass_centrality.csv",
+    "focal_centrality": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/cpc_focal_centrality.csv",
+    "yearly_focal_edges": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/cpc_yearly_focal_edges.csv",
+    "yearly_focal_centrality": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/cpc_yearly_focal_centrality.csv"
+  }
+}

@@ -1,0 +1,15 @@
+source: USPTO ODP PatentsView Q4 2025 (through 2025-12-31)
+date_range: 2016-01-01 .. 2025-12-31
+cpc_prefixes: ['G16H', 'G16C20', 'A61K', 'G06N', 'G06V', 'A61B', 'A61M', 'C07K', 'C07D', 'G16C', 'G16Z']
+cpc_matched: 1080495
+filing_window: 403235
+merged_with_abstract: 403235
+filter_strict: 119784
+filter_broad: 106359
+filter_cpc_abstract: 403235
+analysis_set_rows: 106359
+preprocessed_rows: 105954
+yearly_counts: {2016: 10833, 2017: 12648, 2018: 15268, 2019: 17648, 2020: 16813, 2021: 13560, 2022: 9971, 2023: 6261, 2024: 2588, 2025: 364}
+raw_csv: /Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/patents_raw.csv
+preprocessed_csv: /Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/patents_preprocessed.csv
+strict_csv: /Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/patents_preprocessed_strict.csv

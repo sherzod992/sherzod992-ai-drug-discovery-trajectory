@@ -1,0 +1,497 @@
+{
+  "source": "patents_preprocessed (ODP Q4 2025)",
+  "date_range": "2016-01-01 .. 2025-12-31",
+  "n_patents": 105954,
+  "n_with_assignee": 102230,
+  "sector_totals": [
+    {
+      "sector": "other",
+      "patent_count": 67260
+    },
+    {
+      "sector": "big_tech",
+      "patent_count": 18580
+    },
+    {
+      "sector": "academia",
+      "patent_count": 11318
+    },
+    {
+      "sector": "big_pharma",
+      "patent_count": 5072
+    },
+    {
+      "sector": "unknown",
+      "patent_count": 3724
+    }
+  ],
+  "top_assignees_overall": [
+    {
+      "assignee_norm": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+      "sector": "big_tech",
+      "patent_count": 3053
+    },
+    {
+      "assignee_norm": "SAMSUNG DISPLAY CO., LTD.",
+      "sector": "big_tech",
+      "patent_count": 1721
+    },
+    {
+      "assignee_norm": "GOOGLE LLC",
+      "sector": "big_tech",
+      "patent_count": 1260
+    },
+    {
+      "assignee_norm": "MICROSOFT TECHNOLOGY LICENSING, LLC",
+      "sector": "big_tech",
+      "patent_count": 1174
+    },
+    {
+      "assignee_norm": "CAPITAL ONE SERVICES, LLC",
+      "sector": "big_tech",
+      "patent_count": 896
+    },
+    {
+      "assignee_norm": "AMAZON TECHNOLOGIES, INC.",
+      "sector": "big_tech",
+      "patent_count": 865
+    },
+    {
+      "assignee_norm": "ADOBE INC.",
+      "sector": "big_tech",
+      "patent_count": 739
+    },
+    {
+      "assignee_norm": "INTEL CORPORATION",
+      "sector": "big_tech",
+      "patent_count": 695
+    },
+    {
+      "assignee_norm": "IMMATICS BIOTECHNOLOGIES GMBH",
+      "sector": "other",
+      "patent_count": 644
+    },
+    {
+      "assignee_norm": "THE REGENTS OF THE UNIVERSITY OF CALIFORNIA",
+      "sector": "academia",
+      "patent_count": 632
+    },
+    {
+      "assignee_norm": "BANK OF AMERICA CORPORATION",
+      "sector": "big_tech",
+      "patent_count": 520
+    },
+    {
+      "assignee_norm": "NVIDIA CORPORATION",
+      "sector": "big_tech",
+      "patent_count": 466
+    },
+    {
+      "assignee_norm": "ACCENTURE GLOBAL SOLUTIONS LIMITED",
+      "sector": "big_tech",
+      "patent_count": 422
+    },
+    {
+      "assignee_norm": "LG ELECTRONICS INC.",
+      "sector": "big_tech",
+      "patent_count": 383
+    },
+    {
+      "assignee_norm": "NOVARTIS AG",
+      "sector": "big_pharma",
+      "patent_count": 361
+    },
+    {
+      "assignee_norm": "NEC CORPORATION",
+      "sector": "big_tech",
+      "patent_count": 357
+    },
+    {
+      "assignee_norm": "QUALCOMM INCORPORATED",
+      "sector": "big_tech",
+      "patent_count": 348
+    },
+    {
+      "assignee_norm": "SAP SE",
+      "sector": "big_tech",
+      "patent_count": 342
+    },
+    {
+      "assignee_norm": "BRISTOL-MYERS SQUIBB COMPANY",
+      "sector": "big_pharma",
+      "patent_count": 340
+    },
+    {
+      "assignee_norm": "ROBERT BOSCH GMBH",
+      "sector": "other",
+      "patent_count": 327
+    },
+    {
+      "assignee_norm": "DELL PRODUCTS L.P.",
+      "sector": "big_tech",
+      "patent_count": 321
+    },
+    {
+      "assignee_norm": "APPLE INC.",
+      "sector": "big_tech",
+      "patent_count": 314
+    },
+    {
+      "assignee_norm": "ORACLE INTERNATIONAL CORPORATION",
+      "sector": "big_tech",
+      "patent_count": 308
+    },
+    {
+      "assignee_norm": "BOARD OF REGENTS, THE UNIVERSITY OF TEXAS SYSTEM",
+      "sector": "academia",
+      "patent_count": 290
+    },
+    {
+      "assignee_norm": "INTUIT INC.",
+      "sector": "big_tech",
+      "patent_count": 283
+    }
+  ],
+  "top_by_sector": {
+    "big_tech": [
+      {
+        "assignee_norm": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+        "sector": "big_tech",
+        "patent_count": 3053
+      },
+      {
+        "assignee_norm": "SAMSUNG DISPLAY CO., LTD.",
+        "sector": "big_tech",
+        "patent_count": 1721
+      },
+      {
+        "assignee_norm": "GOOGLE LLC",
+        "sector": "big_tech",
+        "patent_count": 1260
+      },
+      {
+        "assignee_norm": "MICROSOFT TECHNOLOGY LICENSING, LLC",
+        "sector": "big_tech",
+        "patent_count": 1174
+      },
+      {
+        "assignee_norm": "CAPITAL ONE SERVICES, LLC",
+        "sector": "big_tech",
+        "patent_count": 896
+      },
+      {
+        "assignee_norm": "AMAZON TECHNOLOGIES, INC.",
+        "sector": "big_tech",
+        "patent_count": 865
+      },
+      {
+        "assignee_norm": "ADOBE INC.",
+        "sector": "big_tech",
+        "patent_count": 739
+      },
+      {
+        "assignee_norm": "INTEL CORPORATION",
+        "sector": "big_tech",
+        "patent_count": 695
+      },
+      {
+        "assignee_norm": "BANK OF AMERICA CORPORATION",
+        "sector": "big_tech",
+        "patent_count": 520
+      },
+      {
+        "assignee_norm": "NVIDIA CORPORATION",
+        "sector": "big_tech",
+        "patent_count": 466
+      },
+      {
+        "assignee_norm": "ACCENTURE GLOBAL SOLUTIONS LIMITED",
+        "sector": "big_tech",
+        "patent_count": 422
+      },
+      {
+        "assignee_norm": "LG ELECTRONICS INC.",
+        "sector": "big_tech",
+        "patent_count": 383
+      },
+      {
+        "assignee_norm": "NEC CORPORATION",
+        "sector": "big_tech",
+        "patent_count": 357
+      },
+      {
+        "assignee_norm": "QUALCOMM INCORPORATED",
+        "sector": "big_tech",
+        "patent_count": 348
+      },
+      {
+        "assignee_norm": "SAP SE",
+        "sector": "big_tech",
+        "patent_count": 342
+      }
+    ],
+    "big_pharma": [
+      {
+        "assignee_norm": "NOVARTIS AG",
+        "sector": "big_pharma",
+        "patent_count": 361
+      },
+      {
+        "assignee_norm": "BRISTOL-MYERS SQUIBB COMPANY",
+        "sector": "big_pharma",
+        "patent_count": 340
+      },
+      {
+        "assignee_norm": "REGENERON PHARMACEUTICALS, INC.",
+        "sector": "big_pharma",
+        "patent_count": 263
+      },
+      {
+        "assignee_norm": "GENENTECH, INC.",
+        "sector": "big_pharma",
+        "patent_count": 261
+      },
+      {
+        "assignee_norm": "MERCK SHARP & DOHME LLC",
+        "sector": "big_pharma",
+        "patent_count": 256
+      },
+      {
+        "assignee_norm": "GILEAD SCIENCES, INC.",
+        "sector": "big_pharma",
+        "patent_count": 210
+      },
+      {
+        "assignee_norm": "MERCK PATENT GMBH",
+        "sector": "big_pharma",
+        "patent_count": 203
+      },
+      {
+        "assignee_norm": "PFIZER INC.",
+        "sector": "big_pharma",
+        "patent_count": 200
+      },
+      {
+        "assignee_norm": "HOFFMANN-LA ROCHE INC.",
+        "sector": "big_pharma",
+        "patent_count": 196
+      },
+      {
+        "assignee_norm": "TAKEDA PHARMACEUTICAL COMPANY LIMITED",
+        "sector": "big_pharma",
+        "patent_count": 193
+      },
+      {
+        "assignee_norm": "JANSSEN PHARMACEUTICA NV",
+        "sector": "big_pharma",
+        "patent_count": 188
+      },
+      {
+        "assignee_norm": "BOEHRINGER INGELHEIM INTERNATIONAL GMBH",
+        "sector": "big_pharma",
+        "patent_count": 147
+      },
+      {
+        "assignee_norm": "AMGEN INC.",
+        "sector": "big_pharma",
+        "patent_count": 138
+      },
+      {
+        "assignee_norm": "INCYTE CORPORATION",
+        "sector": "big_pharma",
+        "patent_count": 134
+      },
+      {
+        "assignee_norm": "VERTEX PHARMACEUTICALS INCORPORATED",
+        "sector": "big_pharma",
+        "patent_count": 121
+      }
+    ],
+    "academia": [
+      {
+        "assignee_norm": "THE REGENTS OF THE UNIVERSITY OF CALIFORNIA",
+        "sector": "academia",
+        "patent_count": 632
+      },
+      {
+        "assignee_norm": "BOARD OF REGENTS, THE UNIVERSITY OF TEXAS SYSTEM",
+        "sector": "academia",
+        "patent_count": 290
+      },
+      {
+        "assignee_norm": "THE BOARD OF TRUSTEES OF THE LELAND STANFORD JUNIOR UNIVERSITY",
+        "sector": "academia",
+        "patent_count": 266
+      },
+      {
+        "assignee_norm": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+        "sector": "academia",
+        "patent_count": 224
+      },
+      {
+        "assignee_norm": "THE UNITED STATES OF AMERICA, AS REPRESENTED BY THE SECRETARY, DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+        "sector": "academia",
+        "patent_count": 219
+      },
+      {
+        "assignee_norm": "THE JOHNS HOPKINS UNIVERSITY",
+        "sector": "academia",
+        "patent_count": 206
+      },
+      {
+        "assignee_norm": "THE TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA",
+        "sector": "academia",
+        "patent_count": 174
+      },
+      {
+        "assignee_norm": "UNIVERSITY OF PITTSBURGH—OF THE COMMONWEALTH SYSTEM OF HIGHER EDUCATION",
+        "sector": "academia",
+        "patent_count": 167
+      },
+      {
+        "assignee_norm": "CASE WESTERN RESERVE UNIVERSITY",
+        "sector": "academia",
+        "patent_count": 157
+      },
+      {
+        "assignee_norm": "NORTHWESTERN UNIVERSITY",
+        "sector": "academia",
+        "patent_count": 153
+      },
+      {
+        "assignee_norm": "THE REGENTS OF THE UNIVERSITY OF MICHIGAN",
+        "sector": "academia",
+        "patent_count": 140
+      },
+      {
+        "assignee_norm": "UNIVERSITY OF FLORIDA RESEARCH FOUNDATION, INC.",
+        "sector": "academia",
+        "patent_count": 137
+      },
+      {
+        "assignee_norm": "DUKE UNIVERSITY",
+        "sector": "academia",
+        "patent_count": 137
+      },
+      {
+        "assignee_norm": "UNIVERSITY OF SOUTH FLORIDA",
+        "sector": "academia",
+        "patent_count": 131
+      },
+      {
+        "assignee_norm": "EMORY UNIVERSITY",
+        "sector": "academia",
+        "patent_count": 128
+      }
+    ],
+    "other": [
+      {
+        "assignee_norm": "IMMATICS BIOTECHNOLOGIES GMBH",
+        "sector": "other",
+        "patent_count": 644
+      },
+      {
+        "assignee_norm": "ROBERT BOSCH GMBH",
+        "sector": "other",
+        "patent_count": 327
+      },
+      {
+        "assignee_norm": "L'OREAL",
+        "sector": "other",
+        "patent_count": 241
+      },
+      {
+        "assignee_norm": "ELECTRONICS AND TELECOMMUNICATIONS RESEARCH INSTITUTE",
+        "sector": "other",
+        "patent_count": 232
+      },
+      {
+        "assignee_norm": "EMC IP HOLDING COMPANY LLC",
+        "sector": "other",
+        "patent_count": 219
+      },
+      {
+        "assignee_norm": "MICRON TECHNOLOGY, INC.",
+        "sector": "other",
+        "patent_count": 214
+      },
+      {
+        "assignee_norm": "TATA CONSULTANCY SERVICES LIMITED",
+        "sector": "other",
+        "patent_count": 214
+      },
+      {
+        "assignee_norm": "CANON KABUSHIKI KAISHA",
+        "sector": "other",
+        "patent_count": 211
+      },
+      {
+        "assignee_norm": "FORD GLOBAL TECHNOLOGIES, LLC",
+        "sector": "other",
+        "patent_count": 200
+      },
+      {
+        "assignee_norm": "FUJITSU LIMITED",
+        "sector": "other",
+        "patent_count": 200
+      },
+      {
+        "assignee_norm": "LG CHEM, LTD.",
+        "sector": "other",
+        "patent_count": 196
+      },
+      {
+        "assignee_norm": "GENERAL ELECTRIC COMPANY",
+        "sector": "other",
+        "patent_count": 193
+      },
+      {
+        "assignee_norm": "PAYPAL, INC.",
+        "sector": "other",
+        "patent_count": 187
+      },
+      {
+        "assignee_norm": "GE PRECISION HEALTHCARE LLC",
+        "sector": "other",
+        "patent_count": 178
+      },
+      {
+        "assignee_norm": "FUJIFILM CORPORATION",
+        "sector": "other",
+        "patent_count": 176
+      }
+    ],
+    "unknown": []
+  },
+  "cpc_contrast_big_tech_vs_pharma": {
+    "big_tech_cpc_share": {
+      "G06N": 0.8499,
+      "G06V": 0.2686,
+      "G16H": 0.044,
+      "A61B": 0.0371,
+      "C07D": 0.0249,
+      "A61K": 0.0042,
+      "G16C": 0.0032,
+      "A61M": 0.0015,
+      "G16Z": 0.0009,
+      "C07K": 0.0009
+    },
+    "big_pharma_cpc_share": {
+      "A61K": 0.9162,
+      "C07D": 0.4673,
+      "C07K": 0.3346,
+      "G16H": 0.0195,
+      "G06N": 0.0187,
+      "A61B": 0.014,
+      "G06V": 0.0134,
+      "A61M": 0.0079,
+      "G16C": 0.002
+    }
+  },
+  "outputs": {
+    "assignee_top": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/assignee_top.csv",
+    "sector_yearly": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/assignee_sector_yearly.csv",
+    "cpc_portfolio": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/assignee_sector_cpc_portfolio.csv",
+    "topic_portfolio": "/Users/sherzodbeksharobiddinov/Desktop/웹스크롤/data/processed/assignee_sector_topic_portfolio.csv"
+  }
+}

@@ -1,0 +1,53 @@
+# --- Secrets / local env ---
+.env
+.env.*
+*.pem
+USPTO_API_KEY*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Large USPTO raw dumps (download locally; see data/raw/README.md) ---
+data/raw/*.zip
+data/raw/*.tsv
+data/raw/*.csv
+!data/raw/README.md
+
+# --- Local processed outputs (regenerate with scripts/; summaries live in data/results/) ---
+data/processed/*
+!data/processed/README.md
+data/processed/*.parquet
+data/processed/*.pkl
+data/processed/*.joblib
+
+# --- Root / build junk ---
+/paper_for_pdf.html
+/common_cpcs.csv
+/cpc_network_summary.json
+/cpc_yearly_summary.json
+/top5_cpc_names.txt
+
+# --- Optional local model caches ---
+.cache/
+models/
+*.bin
+*.pt
+*.onnx
